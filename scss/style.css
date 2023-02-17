@@ -1,0 +1,334 @@
+/* -----------------------------------------------------------Importaciones------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;800&display=swap" rel="stylesheet');
+/*-------------------------------------------------------------- Labels----------------------------------------------------------- */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  height: 45.45px;
+  border: none;
+  font-family: "Kaushan Script", cursive;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+h2 {
+  width: 195px;
+  height: 45.45px;
+  background: #323232;
+  border: none;
+  font-family: "Kaushan Script", cursive;
+  color: #F5F5F5;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-top: 100px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+h3 {
+  width: 100%;
+  height: 30px;
+  background: #323232;
+  margin-right: 100px;
+  font-family: "Kaushan Script", cursive;
+  color: #F5F5F5;
+  font-size: 18px;
+  border-radius: 7px;
+  margin-top: 100px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-family: "Outfit", sans-serif;
+  color: #d8c7c7;
+  text-shadow: text-shadow rgb(18, 16, 16) 1px 0px 1px;
+}
+
+a:link, a:visited {
+  color: #323232;
+  text-decoration: none;
+}
+a:hover {
+  color: #323232;
+  text-decoration: underline;
+}
+
+main {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section {
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer {
+  margin: 0;
+  background-color: #e3d3d3;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+}
+
+/* -------------------------------------------------------------Clases-------------------------------------------------------- */
+.logocontenedor {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .logocontenedor {
+    background-color: #000000;
+  }
+}
+.fondo {
+  overflow: scroll;
+  background-color: #1e1e1e;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 195px;
+  height: 45.45px;
+  background: #323232;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  color: #F5F5F5;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17.594px;
+  border-radius: 7px;
+  margin-top: 40px;
+}
+
+.image_lateral {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 300%;
+}
+
+.image_me {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 1vh;
+}
+
+.formulario {
+  justify-content: center;
+  border: 2px solid rgb(64, 58, 57);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(40, 38, 38), rgb(219, 219, 225));
+  margin-bottom: 50px;
+}
+
+.contacto {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.galeria__image {
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 30px 30px 10px;
+  width: 35%;
+  opacity: 70%;
+  border-radius: 20px;
+}
+
+.fondovideo {
+  background-color: #323232;
+  margin-top: 200px;
+}
+
+.about {
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.cafe {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*----------------------------------------------------------------------------- Keyframe---------------------------------------------------------- */
+@-webkit-keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100%;
+  }
+}
+/*----------------------------------------------------------------------------- Id---------------------------------------------------------- */
+#logo {
+  border-radius: 100px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: #323232;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    background-color: #000000;
+  }
+}
+#menu {
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 19x;
+  padding: 10px;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  overflow: hidden;
+}
+#menu ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+#menu li {
+  text-align: center;
+  display: inline;
+  margin: 10px;
+}
+
+.video {
+  align-items: center;
+  background-color: #323232;
+}
+
+.shake {
+  font-size: 10rem;
+  margin: auto;
+  border-radius: 10%;
+}
+.shake:hover {
+  -webkit-animation: agitar 0.5s;
+  animation: agitar 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation: agitar 5s;
+  animation: agitar 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes agitar {
+  0% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  90% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes agitar {
+  0% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  90% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}/*# sourceMappingURL=style.css.map */
