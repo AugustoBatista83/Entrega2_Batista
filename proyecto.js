@@ -81,7 +81,7 @@ function agregoPrecio () {
     console.log(menuProductos)
 
     //Recorrer el array menuProductos
-    // Se usa FOR of PARA SIMPLIFICAR EL RECORRIDO DEL ARRAY
+    // Se usa FOR of PARA SIMPLIFICAR EL RECORRIDO DEL ARRAYs
     for(let elemento of menuProductos){
       console.log(elemento.id, elemento.producto, elemento.precio, elemento.tipoProducto)
     }
@@ -93,32 +93,32 @@ function agregoPrecio () {
 
   //MENU
 
-  // let salirMenu = true;
-  // do {
-  //   let opcionMenu = prompt(`Ingrese la opcion deseada
-  //         A   - Agregar Producto
-  //         B   - Agregar Precio
-  //         C   - Mostrar Datos Producto
-  //         D   - Salir del Menu`) SS
+  let salirMenu = true;
+  do {
+    let opcionMenu = prompt(`Ingrese la opcion deseada
+          A   - Agregar Producto
+          B   - Agregar Precio
+          C   - Mostrar Datos Producto
+          D   - Salir del Menu`) 
 
-  //   switch (opcionMenu) {
-  //     case "A":
-  //       agregoProducto();
-  //       break ;
-  //     case "B":
-  //       agregoPrecio();
-  //       break;
-  //     case "C":
-  //       mostrarDatosProducto();
-  //       break;
-  //     case "D": 
-  //     salirMenu = false;
-  //     alert("Gracias por utilizar nuestro sitio, vuelve pronto!");
-  //     break;
+    switch (opcionMenu) {
+      case "A":
+        agregoProducto();
+        break ;
+      case "B":
+        agregoPrecio();
+        break;
+      case "C":
+        mostrarDatosProducto();
+        break;
+      case "D": 
+      salirMenu = false;
+      alert("Gracias por utilizar nuestro sitio, vuelve pronto!");
+      break;
 
-  //     default: alert("Elija una Opcion valida")
-  //   }
-  // } while (salirMenu);
+      default: alert("Elija una Opcion valida")
+    }
+  } while (salirMenu);
 
 } else {
   alert(
